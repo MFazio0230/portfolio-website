@@ -10,6 +10,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Michael Fazio">
         <meta name="description" content="Innovative designs that captivate and inspire">
+        <style>
+            .download-resume-button {
+                display: block;
+                margin: auto;
+                width: 175px;
+                height: 40px;
+                margin-bottom: 50px;
+            }
+        </style>
+        <style>
+            .contact-me-button {
+                justify-content: center;
+                background-color: #f28100;
+                text-decoration: none;
+                text-align: center;
+                padding: 5px 10px;
+            }
+        </style>
+        <style>
+            .nav-button {
+                display: block;
+                margin: auto;
+                width: 75px;
+                height: 30px;
+                margin-bottom: 50px;
+            }
+        </style>
         <title>Designs by Michael Fazio</title>
 </head>
 
@@ -17,12 +44,12 @@
     <!-- Header -->
     <header>
         <div>
-            <a href="index.html"><img src="img/mf_designs_logo.svg" alt="MF Designs logo"></a>
+            <div><img src="img/mf_designs_logo.svg" alt="MF Designs logo"></div>
             <nav class="horizontal-nav">
                 <ul>
-                  <li><a href="index.html">Portfolio</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><button class="nav-button"><a href="index.html">Work</a></button></li>
+                  <li><button class="nav-button"><a href="about.html">About</a></button></li>
+                  <li><button class="nav-button"><a href="contact.html">Contact</a></button></li>
                 </ul>
             </nav>
         </div>
@@ -39,16 +66,17 @@
         </div>
         <!-- Projects -->
         <div><!-- open section -->
-            <div><!-- open container --><h2>PORTFOLIO</h2>
+            <div><!-- open container -->
                 <div><!-- open row that holds project #1 -->
                     <div><!-- open 1st column (used for image) -->
+                            <h3>Solára</h3></a>
                             <picture>
-                                <a href="solára.html">
-                                    <source srcset="img/solára--600px.jpg" media="(max-width:767px)">
-                                    <img src="img/solára--1200px.jpg" alt="Solára Logo">
-                                </a>
+                                <div>
+                                    <source srcset="img/solára_homepage_mockup--600px.jpg" media="(max-width:767px)">
+                                    <img src="img/solára_homepage_mockup--1200px-1.jpg" alt="Solára Logo">
+                                </div>
                             </picture>
-                        <div><!-- open paragraph--><h3>Solára</h3></a>
+                        <div><!-- open paragraph-->
                             <p>A cutting-edge e-commerce clothing website and mobile application. Solára offers a carefully curated collection of the latest fashion trends and timeless classics. -- <a href="solára.html">View Project</a>
                             </p>
                         </div><!-- end paragraph -->    
@@ -56,13 +84,14 @@
                 </div><!-- end row that holds project #1 -->
                 <div><!-- open row that holds project #1 -->
                     <div><!-- open 2nd column (used for image) -->
+                            <h3>BOOMBOX</h3>
                             <picture>
-                                <a href="boombox.html">
-                                    <source srcset="img/boombox--600px.jpg" media="(max-width:767px)">
-                                    <img src="img/boombox--1200px.jpg" alt="My Image">
-                                </a>
+                                <div>
+                                    <source srcset="img/boombox_homepage_mockup--600px.jpg" media="(max-width:767px)">
+                                    <img src="img/boombox_homepage_mockup--1200px.jpg" alt="My Image">
+                                </>
                             </picture>
-                            <div><!-- open paragraph--><h3>BOOMBOX</h3>
+                            <div><!-- open paragraph-->
                                 <p>A 1980’s themed music & music video player. Users can immerse themselves in a treasure trove of timeless hits from the greatest singers and songwriters of the decade. -- <a href="#">View Project</a>
                                 </p>
                             </div><!-- end paragraph -->
@@ -75,13 +104,14 @@
     <!-- Footer -->
     <footer>
         <div><!-- Get in Touch-->
-            <h2 class= "footer-title">Get in Touch</h2>
+            <h2>Get in Touch</h2>
                 <p>Do you like my work and want to discuss possible opportunities? Please don't hesitate to get in touch.</p>
                 <ul>
-                    <li>Skype me at -- &nbsp;<a href="live:.cid.1ad005d66f596aad" class="button contact">live:.cid.1ad005d66f596aad</a>
+                    <li>Skype me at &nbsp;-- &nbsp;<a href="live:.cid.1ad005d66f596aad" class="contact-me-button">live:.cid.1ad005d66f596aad</a>
                     </li>
+                    <br>
                     <li>
-                        Or Email me at -- &nbsp;<a href="mailto:michaelfazio80@gmail.com" class="button contact">michaelfazio80@gmail.com</a>
+                        Or Email me at &nbsp;-- &nbsp;<a href="mailto:michaelfazio80@gmail.com" class="contact-me-button">michaelfazio80@gmail.com</a>
                     </li>
                 </ul>
                 <div class="social-icons-container">

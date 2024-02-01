@@ -10,6 +10,33 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="author" content="Michael Fazio">
             <meta name="description" content="Innovative designs that captivate and inspire">
+            <style>
+                .download-resume-button {
+                    display: block;
+                    margin: auto;
+                    width: 175px;
+                    height: 40px;
+                    margin-bottom: 50px;
+                }
+            </style>
+            <style>
+                .contact-me-button {
+                    justify-content: center;
+                    background-color: #f28100;
+                    text-decoration: none;
+                    text-align: center;
+                    padding: 5px 10px;
+                }
+            </style>
+            <style>
+                .nav-button {
+                    display: block;
+                    margin: auto;
+                    width: 75px;
+                    height: 30px;
+                    margin-bottom: 50px;
+                }
+            </style>
             <title>Shop in Style.</title>
     </head>
 
@@ -17,12 +44,13 @@
     <!-- Header -->
     <header>
         <div>
-            <a href="index.html"><img src="img/mf_designs_logo.svg" alt="MF Designs logo"></a>
+            <div><img src="img/mf_designs_logo.svg" alt="MF Designs logo"></div>
             <nav class="horizontal-nav">
                 <ul>
-                  <li><a href="index.html">Portfolio</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><button class="nav-button"><a href="index.html">Work</a></button></li>
+                  <li><button class="nav-button"><a href="about.html">About</a></button></li>
+                  <li><button class="nav-button"><a href="contact.html">Contact</a></button></li>
+
                 </ul>
             </nav>
         </div>
@@ -31,9 +59,9 @@
     <!-- Main -->
     <main>
         <div><!-- open Whole section -->
-            <div><!-- open Project title row  --><div><h1>Solára</h1>
+            <div><!-- open Project title row  -->
                 <picture>
-                    <source srcset="img/solára--600px.jpg" alt="Solára Logo" width="100px" media="(max-width:767px)">
+                    <source srcset="img/solára--600px.jpg" alt="Solára Logo" media="(max-width:767px)">
                     <img src="img/solára--1200px.jpg" alt="Solára Logo">
                 </picture>
                 <p>Introducing Solára, a cutting-edge e-commerce clothing website and mobile application. Solára offers a carefully curated collection of the latest fashion trends and timeless classics. With its large and diverse catalogue of brands and designers--elevating your fashion has never been easier!
@@ -43,7 +71,7 @@
             <h2>My Process</h2>
             <div><!-- open User Research row  -->
                 <picture>
-                    <source srcset="img/project_images--compressed/images(600px)/solara(600px)/user_personas--600px.jpeg" alt="Photos of Users" width="100px" media="(max-width:767px)">
+                    <source srcset="img/project_images--compressed/images(600px)/solara(600px)/user_personas--600px.jpeg" alt="Photos of Users" media="(max-width:767px)">
                     <img src="img/project_images--compressed/images(1200px)/solara(1200px)-4x/user_personas--1200px.jpeg" alt="Photos of Users">
                 </picture>
                 <h3>Research</h3>
@@ -94,9 +122,9 @@
                     </picture><!-- end Prototype 2 row  -->
                 </div>
                 <h3>Final Product</h3>
-                <p1>
+                <p>
                     Featuring a sleek and minimalistic design, the Solára experience allows the product to shine, thus creating an intuitive and clutter-free experience for all. By paying special attention to every detail, ranging from product images to varying typography weights, Solára endeavors to establish a new era of online shopping--where style and convenience converge.
-                </p1>
+                </p>
             </div><!-- end Prototypes row  -->
         </div><!-- end Whole section -->
     </main>
@@ -107,10 +135,11 @@
             <h2>Get in Touch</h2>
                 <p>Do you like my work and want to discuss possible opportunities? Please don't hesitate to get in touch.</p>
                 <ul>
-                    <li>Skype me at -- &nbsp;<a href="live:.cid.1ad005d66f596aad" class="button contact">live:.cid.1ad005d66f596aad</a>
+                    <li>Skype me at &nbsp;-- &nbsp;<a href="live:.cid.1ad005d66f596aad" class="contact-me-button">live:.cid.1ad005d66f596aad</a>
                     </li>
+                    <br>
                     <li>
-                        Or Email me at -- &nbsp;<a href="mailto:michaelfazio80@gmail.com" class="button contact">michaelfazio80@gmail.com</a>
+                        Or Email me at &nbsp;-- &nbsp;<a href="mailto:michaelfazio80@gmail.com" class="contact-me-button">michaelfazio80@gmail.com</a>
                     </li>
                 </ul>
                 <div class="social-icons-container">

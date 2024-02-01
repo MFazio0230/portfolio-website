@@ -10,6 +10,33 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="author" content="Michael Fazio">
             <meta name="description" content="Innovative designs that captivate and inspire">
+            <style>
+                .download-resume-button {
+                    display: block;
+                    margin: auto;
+                    width: 175px;
+                    height: 40px;
+                    margin-bottom: 50px;
+                }
+            </style>
+            <style>
+                .contact-me-button {
+                    justify-content: center;
+                    background-color: #f28100;
+                    text-decoration: none;
+                    text-align: center;
+                    padding: 5px 10px;
+                }
+            </style>
+            <style>
+                .nav-button {
+                    display: block;
+                    margin: auto;
+                    width: 75px;
+                    height: 30px;
+                    margin-bottom: 50px;
+                }
+            </style>
             <title>Behind the Designs.</title>
     </head>
 
@@ -17,12 +44,12 @@
     <!-- Header -->
     <header>
         <div>
-            <a href="index.html"><img src="img/mf_designs_logo.svg" alt="MF Designs logo"></a>
+            <div><img src="img/mf_designs_logo.svg" alt="MF Designs logo"></div>
             <nav class="horizontal-nav">
                 <ul>
-                  <li><a href="index.html">Portfolio</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><button class="nav-button"><a href="index.html">Work</a></button></li>
+                  <li><button class="nav-button"><a href="about.html">About</a></button></li>
+                  <li><button class="nav-button"><a href="contact.html">Contact</a></button></li>
                 </ul>
             </nav>
         </div>
@@ -32,7 +59,6 @@
     <main>
         <div><!-- open page title section -->
             <div><!-- open page title container -->
-                <h1>About</h1>
             </div><!-- end page title container -->
         </div><!-- end page title section -->
         <div><!-- open My Story section -->
@@ -46,31 +72,31 @@
                             <h2>My Story</h2>
                             <p>Hi, my name is Michael and I am a UI/UX Designer with a passion for creating visually appealing & intuitive interfaces.
                             I was born and raised in Queens, New York. During my free time I like to hang out with my beautiful wife and our adorable little shitzu—Maya. When we can we like to take long road trips, spend time in nature, and visit fancy restaurants. As a designer, I strive to stay adaptable to current industry trends & design technologies. For me, good design is always evolving.</p>
-                             <div class="download-resume-button">
+                             <div>
                                 <button class="download-resume-button">
                                     <a href="img/cv_placeholder.pdf">Download Resume</a>
                                 </button>
                              </div>   
                         </div><!-- end Story column -->
-                        <div>><!-- open Skills & Tools column -->
+                        <div><!-- open Skills & Tools column -->
                             <h2>Skills & Tools</h2>
-                            <div class="bulletpoints-override"><h4>Relevant Skills</h4>
-                                <ul>
+                            <div><h4>Relevant Skills</h4>
+                                <ul class="bulletpoints-override">
                                     <li>Competitive Analysis</li>
-                                    <li>Stories</li>
                                     <li>User Personas</li>
                                     <li>User Flows</li>
                                     <li>Low, Mid, & High Fidelity Wire-framing, and Prototyping</li>
                                     <li>Frontend Development</li>
                                 </ul>
                                 <h4>Tools I Use</h4>
-                                <ul>
+                                <ul class="bulletpoints-override">
                                     <li>Figma</li>
                                     <li>Sketch</li>
                                     <li>HTML</li>
                                     <li>CSS</li>
                                     <li>JavaScript</li>
-                                    <li>Adbobe (Photoshop, Illistrator, Premiere Pro After Effects)</li>
+                                    <li>Adbobe Photoshop</li>
+                                    <li>Adobe Illustrator</li>
                                 </ul>     
                             </div>
                         </div><!-- end Skills & Tools column -->
@@ -86,10 +112,11 @@
             <h2>Get in Touch</h2>
                 <p>Do you like my work and want to discuss possible opportunities? Please don't hesitate to get in touch.</p>
                 <ul>
-                    <li>Skype me at -- &nbsp;<a href="live:.cid.1ad005d66f596aad" class="button contact">live:.cid.1ad005d66f596aad</a>
+                    <li>Skype me at &nbsp;-- &nbsp;<a href="live:.cid.1ad005d66f596aad" class="contact-me-button">live:.cid.1ad005d66f596aad</a>
                     </li>
+                    <br>
                     <li>
-                        Or Email me at -- &nbsp;<a href="mailto:michaelfazio80@gmail.com" class="button contact">michaelfazio80@gmail.com</a>
+                        Or Email me at &nbsp;-- &nbsp;<a href="mailto:michaelfazio80@gmail.com" class="contact-me-button">michaelfazio80@gmail.com</a>
                     </li>
                 </ul>
                 <div class="social-icons-container">
