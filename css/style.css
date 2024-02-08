@@ -110,6 +110,11 @@ main {
   padding: 13% 6% 0 6%; 
 }
 
+footer {
+  padding: 6% 6% 0 6%; 
+  border-bottom: 3px solid #f28100; 
+}
+
 @media only screen and (max-width: 767px){
 
   .header-container{
@@ -147,6 +152,12 @@ main {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
   }
+
+  .no-border footer{
+    padding: 45% 6% 0 6%; 
+    border-bottom: 3px solid #f28100; 
+  }
+
 }  
 @media only screen and (min-width: 768px) and (max-width: 1024px){
   main{
