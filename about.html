@@ -7,87 +7,95 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="/Users/thefoz/Desktop/portfolio_site--michael_fazio/img/favicon.ico" rel="shortcut icon">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta name="author" content="Michael Fazio">
-            <meta name="description" content="Innovative designs that captivate and inspire">
-            <title>Behind the Designs</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Michael Fazio">
+        <meta name="description" content="Innovative designs that captivate and inspire">
+        <title>Behind the Designs</title>
     </head>
 
 <body>
     <!-- Header -->
     <header>
-        <div>
-            <img src="img/mf_designs_logo.svg" alt="MF Designs logo">
-            <nav class="horizontal-nav">
+        <div class="header-container">
+            <div class="logo">
+                <img src="img/mf_designs_logo_v3.svg" alt="MF Designs logo">
+            </div>
+            <nav>
                 <ul>
-                  <li><a href="index.html">Work</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
-
     </header>
 
-    <!-- Main -->
     <main>
+        <!-- Hero -->
+            <div>
+                <h1 class="hero-text">
+                </h1> 
+            </div>
         <div><!-- open My Story section -->
-            <div><!-- open My Story container -->
-                <picture>
-                    <source srcset="img/about_me_image--600px.jpg" alt="My Image" media="(max-width:767px)">
-                    <img src="img/about_me_image_--1200px.jpg" alt="My Image">
-                </picture>
-                    <div><!-- open row for columns -->
-                        <div><!-- open My Story column -->
-                            <h2>My Story</h2>
-                            <p>Hi, my name is Michael and I am a UI/UX Designer with a passion for creating visually appealing & intuitive interfaces.
-                            I was born and raised in Queens, New York. During my free time I like to hang out with my beautiful wife and our adorable little shitzu—Maya. When we can we like to take long road trips, spend time in nature, and visit fancy restaurants. As a designer, I strive to stay adaptable to current industry trends & design technologies. For me, good design is always evolving.</p>
-
-                                <button class="download-resume-button">
-                                    <a href="img/cv_placeholder.pdf">Download Resume</a>
-                                </button>
-                                
-                        </div><!-- end Story column -->
-                        <div><!-- open Skills & Tools column -->
-                            <h2>Skills & Tools</h2>
-                            <div><h4>Relevant Skills</h4>
-                                <ul class="bulletpoints-override">
-                                    <li>Competitive Analysis</li>
-                                    <li>User Personas</li>
-                                    <li>User Flows</li>
-                                    <li>Low, Mid, & High Fidelity Wireframing, and Prototyping</li>
-                                    <li>Frontend Development</li>
-                                </ul>
-                                <h4>Tools I Use</h4>
-                                <ul class="bulletpoints-override">
-                                    <li>Figma</li>
-                                    <li>Sketch</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>Adbobe Photoshop</li>
-                                    <li>Adobe Illustrator</li>
-                                </ul>     
-                            </div>
-                        </div><!-- end Skills & Tools column -->
-                    </div><!-- end row for columns -->
-            </div><!-- end My Story container -->
-        </div><!-- end My Story section -->
-        
+        <div><!-- open My Story container -->
+            <picture>
+                <source srcset="img/about_me_image--600px.jpg" alt="My Image" media="(max-width:767px)">
+                <img src="img/about_me_image_--1200px.jpg" alt="My Image">
+            </picture>
+                <div>
+                    <div><!-- open My Story column -->
+                        <h2>My Story</h2>
+                        <p>Hi, my name is Michael and I am a UI/UX Designer with a passion for creating visually appealing & intuitive interfaces.
+                        I was born and raised in Queens, New York. During my free time I like to hang out with my beautiful wife and our adorable little shitzu—Maya. When we can we like to take long road trips, spend time in nature, and visit fancy restaurants. As a designer, I strive to stay adaptable to current industry trends & design technologies. For me, good design is always evolving.</p>
+                        <div class="button-container">
+                            <button class="link-button">
+                                <a href="img/cv_placeholder.pdf">Download Resume</a>
+                            </button>
+                        </div>
+                    </div><!-- end Story column -->
+                    <div><!-- open Skills & Tools column -->
+                        <h2>Skills & Tools</h2>
+                        <div><h4>Relevant Skills</h4>
+                            <ul class="bulletpoints-override">
+                                <li>Competitive Analysis</li>
+                                <li>User Personas</li>
+                                <li>User Flows</li>
+                                <li>Low, Mid, & High Fidelity Wireframing, and Prototyping</li>
+                                <li>Frontend Development</li>
+                            </ul>
+                            <h4>Tools I Use</h4>
+                            <ul class="bulletpoints-override">
+                                <li>Figma</li>
+                                <li>Sketch</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Adbobe Photoshop</li>
+                                <li>Adobe Illustrator</li>
+                            </ul>     
+                        </div>
+                    </div>
+                </div>
+        </div>
     </main>
         
     <!-- Footer -->
-    <footer>
+    <footer  class="container">
         <div><!-- Get in Touch-->
             <h2>Get in Touch</h2>
                 <p>Do you like my work and want to discuss possible opportunities? Please don't hesitate to get in touch.</p>
-                <ul>
-                    <li>Skype me at &nbsp;-- &nbsp;<a href="live:.cid.1ad005d66f596aad" class="get-in-touch-button">live:.cid.1ad005d66f596aad</a>
-                    </li>
-                    <li>
-                        Email me at &nbsp;-- &nbsp;<a href="mailto:michaelfazio80@gmail.com" class="get-in-touch-button">michaelfazio80@gmail.com</a>
-                    </li>
-                </ul>
+                <div class="button-container">
+                    <button class="link-button">
+                        <a href="mailto:michaelfazio80@gmail.com" >
+                            Email me
+                        </a>
+                    </button>
+                    <button class="link-button">
+                        <a href="skype:live:.cid.1ad005d66f596aad?userinfo" >
+                            Skype me
+                        </a>
+                    </button>
+                </div>
                 <div class="social-icons-container">
                     <a href="https://www.linkedin.com/in/michael-fazio-62298a1b9/" class="social-icons" target="_blank"><?xml version="1.0" ?><svg height="64px" version="1.1" viewBox="0 0 60 60" width="64px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/><g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-linejoin="round" stroke-width="1"><g id="Linkedin" stroke="#000000" stroke-width="2" transform="translate(1.000000, 1.000000)"><path d="M51,33.6902 L51,49.0002 L41.146,49.0002 L41.146,34.7492 C41.146,31.0202 39.606,28.4772 36.217,28.4772 C33.623,28.4772 32.179,30.1942 31.511,31.8462 C31.257,32.4442 31.298,33.2702 31.298,34.1002 L31.298,49.0002 L21.535,49.0002 C21.535,49.0002 21.662,23.7602 21.535,21.4652 L31.298,21.4652 L31.298,25.7872 C31.875,23.8972 34.996,21.2022 39.971,21.2022 C46.147,21.2022 51,25.1592 51,33.6902 L51,33.6902 Z" id="Stroke-18"/><polygon id="Stroke-19" points="7.543 49 16.231 49 16.231 21.466 7.543 21.466"/><path d="M16.7815,13.3799 C16.7815,15.7979 14.9335,17.7149 11.9735,17.7149 L11.9135,17.7149 C9.0595,17.7149 7.2115,15.8069 7.2115,13.3849 C7.2115,10.9159 9.1145,9.0499 12.0285,9.0499 C14.9335,9.0499 16.7215,10.9119 16.7815,13.3799 L16.7815,13.3799 Z" id="Stroke-20"/><path d="M54,58 L4,58 C1.791,58 0,56.209 0,54 L0,4 C0,1.791 1.791,0 4,0 L54,0 C56.209,0 58,1.791 58,4 L58,54 C58,56.209 56.209,58 54,58 L54,58 Z" id="Stroke-103"/></g></g></svg></a>
                     <a href="https://www.twitter.com/MFazio0230"
