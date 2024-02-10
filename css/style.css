@@ -284,7 +284,7 @@ body.specific-page main {
 }
 
 .bulletpoints-override{
-  justify-content: left;
+  text-align: left;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px){
